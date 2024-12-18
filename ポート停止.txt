@@ -1,0 +1,8 @@
+netstat -ano | findstr :9000
+
+taskkill /PID <PID番号> /F
+
+//伝家の宝刀（強制停止コマンドcmdのやつ）：　taskkill /IM node.exe /F
+
+
+npm install express express-handlebars
